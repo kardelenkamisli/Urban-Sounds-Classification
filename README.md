@@ -9,7 +9,7 @@ Project Summary
 In process preparation; audio files were converted to images with the spectogram function and converted to grayscale. The scale of the grayscale image files is all synchronized and normalized. After the normalization, the data set was recorded as binary in matrices and the data set was obtained in the size of the input data [8732, 16384] and the output data in the size of [8732,] and the model work was started. The model was trained using the Convolutional Neural Network model and results were obtained in the metrics of accuracy: 93.28%, validation accuracy: 86.07%, loss: 0.1979, validation loss: 0.5528. Test results are loss: 0.5320 - accuracy: 85.00%
 
 
-============================================================================================
+=========================================================
 
 Urban Sounds Classification Dataset Original Readme Notes: 
 ----------------------------------------------------------
