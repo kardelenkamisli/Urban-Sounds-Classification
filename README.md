@@ -2,12 +2,14 @@
 Urban-Sound-Classification-Using-CNN
 ------------------------------------
 
-This project was carried out as a Global AI Hub Deep Learning Bootcamp graduation project. The dataset was taken from the website https://urbansounddataset.weebly.com/urbansound8k.html. This dataset contains 8732 labeled audio excerpts of 10 different classes of sounds, namely air_conditioner, car_horn, children_playing, dog_bark, drill, enginge_idling, gun_shot, jackhammer, siren and street_music classes.
+This project was carried out as a Global AI Hub Deep Learning Bootcamp graduation project. The dataset was taken from the website https://urbansounddataset.weebly.com/urbansound8k.html. This dataset contains 8732 labeled audio excerpts of 10 different classes of sounds, namely air_conditioner, car_horn, children_playing, dog_bark, drill, enginge_idling, gun_shot, jackhammer, siren and street_music classes. 
 
 Project Summary
 ---------------
 In process preparation; audio files were converted to images with the spectogram function and converted to grayscale. The scale of the grayscale image files is all synchronized and normalized. After the normalization, the data set was recorded as binary in matrices and the data set was obtained in the size of the input data [8732, 16384] and the output data in the size of [8732,] and the model work was started. The model was trained using the Convolutional Neural Network model and results were obtained in the metrics of accuracy: 93.28%, validation accuracy: 86.07%, loss: 0.1979, validation loss: 0.5528. Test results are loss: 0.5320 - accuracy: 85.00%
-====================================================================================================================================
+
+
+============================================================================================
 
 Urban Sounds Classification Dataset Original Readme Notes: 
 ----------------------------------------------------------
